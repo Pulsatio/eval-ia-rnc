@@ -1,0 +1,5 @@
+OpenAI
+json
+dotenv
+streamlit
+re
