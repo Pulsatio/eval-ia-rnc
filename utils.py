@@ -3,7 +3,10 @@ import re
 from datetime import datetime, timedelta
 from classes import CreateSessionData
 import requests
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 VALID_PARAMETERS = None
 VALIDATION_DATA = None
@@ -93,7 +96,7 @@ def check_parameters(nivel:str, grado: str, seccion:str, curso:str):
     return None
 
 def createSessionRequest(data: dict):
-    REQUEST_URL = "https://xwtiv9n29l.execute-api.us-east-1.amazonaws.com/dev/rnc-dogma/v1/learning-session/sequence-generate"
+    request_url =  os.environ["CREATE_SESSION_URL_ENDPOINT"]
     
     # Verificar existencia
     if "Nivel" not in data:
@@ -150,7 +153,7 @@ def createSessionRequest(data: dict):
     )
 
     try:
-        response = requests.post(REQUEST_URL, json=createSessionData.__dict__)
+        response = requests.post(request_url, json=createSessionData.__dict__)
        
         if response.status_code == 200:
             return { "message": "La sesión ha sido creada. ¿Desea crear otra sesión de aprendizaje?", "ok": True }
