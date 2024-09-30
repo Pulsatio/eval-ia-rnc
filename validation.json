@@ -1,0 +1,682 @@
+{
+    "aNivel": {
+      "1": {
+        "intNivel": "1",
+        "strNivel": "Inicial",
+        "aGrado": {
+          "3": {
+            "intGrado": "3",
+            "strGrado": "3 Años"
+          },
+          "4": {
+            "intGrado": "4",
+            "strGrado": "4 Años"
+          },
+          "5": {
+            "intGrado": "5",
+            "strGrado": "5 Años"
+          }
+        }
+      },
+      "2": {
+        "intNivel": "2",
+        "strNivel": "Primaria",
+        "aGrado": {
+          "1": {
+            "intGrado": "1",
+            "strGrado": "Primer grado"
+          },
+          "2": {
+            "intGrado": "2",
+            "strGrado": "Segundo grado"
+          },
+          "3": {
+            "intGrado": "3",
+            "strGrado": "Tercer grado"
+          },
+          "4": {
+            "intGrado": "4",
+            "strGrado": "Cuarto grado"
+          },
+          "5": {
+            "intGrado": "5",
+            "strGrado": "Quinto grado"
+          },
+          "6": {
+            "intGrado": "6",
+            "strGrado": "Sexto grado"
+          }
+        }
+      },
+      "3": {
+        "intNivel": "3",
+        "strNivel": "Secundaria",
+        "aGrado": {
+          "1": {
+            "intGrado": "1",
+            "strGrado": "Primer año"
+          },
+          "2": {
+            "intGrado": "2",
+            "strGrado": "Segundo año"
+          },
+          "3": {
+            "intGrado": "3",
+            "strGrado": "Tercer año"
+          },
+          "4": {
+            "intGrado": "4",
+            "strGrado": "Cuarto año"
+          },
+          "5": {
+            "intGrado": "5",
+            "strGrado": "Quinto año"
+          }
+        }
+      }
+    },
+    "aAula": {
+      "12913": {
+        "id": "12913",
+        "codSeccion": "A",
+        "intNivel": "3",
+        "intGrado": "4"
+      },
+      "12914": {
+        "id": "12914",
+        "codSeccion": "A",
+        "intNivel": "1",
+        "intGrado": "4"
+      },
+      "13419": {
+        "id": "13419",
+        "codSeccion": "SRL",
+        "intNivel": "3",
+        "intGrado": "5"
+      },
+      "13602": {
+        "id": "13602",
+        "codSeccion": "Pacha",
+        "intNivel": "3",
+        "intGrado": "5"
+      },
+      "13617": {
+        "id": "13617",
+        "codSeccion": "SAP",
+        "intNivel": "3",
+        "intGrado": "5"
+      },
+      "13618": {
+        "id": "13618",
+        "codSeccion": "RNC",
+        "intNivel": "3",
+        "intGrado": "5"
+      },
+      "13802": {
+        "id": "13802",
+        "codSeccion": "IEPEJEM",
+        "intNivel": "3",
+        "intGrado": "5"
+      },
+      "13976": {
+        "id": "13976",
+        "codSeccion": "Profesor",
+        "intNivel": "3",
+        "intGrado": "5"
+      },
+      "14161": {
+        "id": "14161",
+        "codSeccion": "AME",
+        "intNivel": "2",
+        "intGrado": "5"
+      }
+    },
+    "aCurso": {
+      "1553": {
+        "id": "1553",
+        "strNombre": "Arte y Creatividad",
+        "intNivel": "1",
+        "intGrado": "4",
+        "codArea": "ART"
+      },
+      "1574": {
+        "id": "1574",
+        "strNombre": "Arte y Creatividad",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "ART"
+      },
+      "1575": {
+        "id": "1575",
+        "strNombre": "Danza y música",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "ART"
+      },
+      "1576": {
+        "id": "1576",
+        "strNombre": "Música",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "ART"
+      },
+      "1577": {
+        "id": "1577",
+        "strNombre": "Lenguaje",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1578": {
+        "id": "1578",
+        "strNombre": "Comunicación",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1579": {
+        "id": "1579",
+        "strNombre": "Gramática",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1580": {
+        "id": "1580",
+        "strNombre": "Lectura y escritura",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1581": {
+        "id": "1581",
+        "strNombre": "Literatura",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1582": {
+        "id": "1582",
+        "strNombre": "Narrativa",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1583": {
+        "id": "1583",
+        "strNombre": "Normativa",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1584": {
+        "id": "1584",
+        "strNombre": "Ortografía y caligrafía",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1585": {
+        "id": "1585",
+        "strNombre": "Plan Lector",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1586": {
+        "id": "1586",
+        "strNombre": "Razonamiento Verbal",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1587": {
+        "id": "1587",
+        "strNombre": "Redacción",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1588": {
+        "id": "1588",
+        "strNombre": "Biología",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1589": {
+        "id": "1589",
+        "strNombre": "Química",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1590": {
+        "id": "1590",
+        "strNombre": "Ciencia Tecnología",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1591": {
+        "id": "1591",
+        "strNombre": "Religión",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "EDR"
+      },
+      "1592": {
+        "id": "1592",
+        "strNombre": "Educación Física",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "EFI"
+      },
+      "1593": {
+        "id": "1593",
+        "strNombre": "Ingles",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "ING"
+      },
+      "1594": {
+        "id": "1594",
+        "strNombre": "Álgebra",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1595": {
+        "id": "1595",
+        "strNombre": "Aritmética",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1596": {
+        "id": "1596",
+        "strNombre": "Geometría",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1597": {
+        "id": "1597",
+        "strNombre": "Estadística",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1598": {
+        "id": "1598",
+        "strNombre": "Habilidad Operativa",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1599": {
+        "id": "1599",
+        "strNombre": "Matemática",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1600": {
+        "id": "1600",
+        "strNombre": "Razonamiento Matemático",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1601": {
+        "id": "1601",
+        "strNombre": "Trigonometría",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1602": {
+        "id": "1602",
+        "strNombre": "Educación Cívica",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "PSO"
+      },
+      "1603": {
+        "id": "1603",
+        "strNombre": "Desarrollo Cívico y Ciudadano",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "PSO"
+      },
+      "1604": {
+        "id": "1604",
+        "strNombre": "Geografía",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "PSO"
+      },
+      "1605": {
+        "id": "1605",
+        "strNombre": "Historia",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "PSO"
+      },
+      "1606": {
+        "id": "1606",
+        "strNombre": "Personal Social",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "PSO"
+      },
+      "1607": {
+        "id": "1607",
+        "strNombre": "Computación",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "TIC"
+      },
+      "1608": {
+        "id": "1608",
+        "strNombre": "Tutoría",
+        "intNivel": "2",
+        "intGrado": "5",
+        "codArea": "TUT"
+      },
+      "1609": {
+        "id": "1609",
+        "strNombre": "Arte y Cultura",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "ART"
+      },
+      "1610": {
+        "id": "1610",
+        "strNombre": "Danza y música",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "ART"
+      },
+      "1611": {
+        "id": "1611",
+        "strNombre": "Competencia Lingüística",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1612": {
+        "id": "1612",
+        "strNombre": "Comprensión Lingüística",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1613": {
+        "id": "1613",
+        "strNombre": "Comunicación",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1614": {
+        "id": "1614",
+        "strNombre": "Gramática",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1615": {
+        "id": "1615",
+        "strNombre": "Lenguaje",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1616": {
+        "id": "1616",
+        "strNombre": "Literatura",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1617": {
+        "id": "1617",
+        "strNombre": "Normativa",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1618": {
+        "id": "1618",
+        "strNombre": "Ortografía y caligrafía",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1619": {
+        "id": "1619",
+        "strNombre": "Plan Lector",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1620": {
+        "id": "1620",
+        "strNombre": "Razonamiento Verbal",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1621": {
+        "id": "1621",
+        "strNombre": "Redacción",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "COM"
+      },
+      "1622": {
+        "id": "1622",
+        "strNombre": "Ciencias Sociales",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1623": {
+        "id": "1623",
+        "strNombre": "Cívica",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1624": {
+        "id": "1624",
+        "strNombre": "Economía",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1625": {
+        "id": "1625",
+        "strNombre": "Geografía",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1626": {
+        "id": "1626",
+        "strNombre": "Historia",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1627": {
+        "id": "1627",
+        "strNombre": "Historia del Perú",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1628": {
+        "id": "1628",
+        "strNombre": "Historia Universal",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CSO"
+      },
+      "1629": {
+        "id": "1629",
+        "strNombre": "Biología",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1630": {
+        "id": "1630",
+        "strNombre": "Ciencia y Tecnología",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1631": {
+        "id": "1631",
+        "strNombre": "Química",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1632": {
+        "id": "1632",
+        "strNombre": "Cívica",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "DPC"
+      },
+      "1633": {
+        "id": "1633",
+        "strNombre": "Desarrollo Cívico y Ciudadano",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "DPC"
+      },
+      "1634": {
+        "id": "1634",
+        "strNombre": "Desarrollo Personal Ciudadanía y Cívica",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "DPC"
+      },
+      "1635": {
+        "id": "1635",
+        "strNombre": "Educación Familiar",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "DPC"
+      },
+      "1636": {
+        "id": "1636",
+        "strNombre": "Filosofía",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "DPC"
+      },
+      "1637": {
+        "id": "1637",
+        "strNombre": "Persona Familia y RRHH",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "DPC"
+      },
+      "1638": {
+        "id": "1638",
+        "strNombre": "Educación Religiosa",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "EDR"
+      },
+      "1639": {
+        "id": "1639",
+        "strNombre": "Educación física",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "EFI"
+      },
+      "1640": {
+        "id": "1640",
+        "strNombre": "Computación",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "EPT"
+      },
+      "1641": {
+        "id": "1641",
+        "strNombre": "Herramientas Digitales y Programación",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "EPT"
+      },
+      "1642": {
+        "id": "1642",
+        "strNombre": "Ingles",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "ING"
+      },
+      "1643": {
+        "id": "1643",
+        "strNombre": "Álgebra",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1644": {
+        "id": "1644",
+        "strNombre": "Aritmética",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1645": {
+        "id": "1645",
+        "strNombre": "Física",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "CYT"
+      },
+      "1646": {
+        "id": "1646",
+        "strNombre": "Geometría",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1647": {
+        "id": "1647",
+        "strNombre": "Trigonometría",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1648": {
+        "id": "1648",
+        "strNombre": "Razonamiento Matemático",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1649": {
+        "id": "1649",
+        "strNombre": "Matemática",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "MAT"
+      },
+      "1650": {
+        "id": "1650",
+        "strNombre": "Tutoría",
+        "intNivel": "3",
+        "intGrado": "5",
+        "codArea": "TUT"
+      }
+    }
+  }
